@@ -1,0 +1,7 @@
+t=int(input("Enter the total number of sessions:"))
+th=int(input("Enter the total hours worked:"))
+fd=int(th/24)
+r=th-(fd*24)
+rs=t-fd
+result=r/rs
+print("FULL DAY SESSION:",fd,"\n","FULL DAY HOURS:",fd*24,"\n","Remaining hours:",r,"\n","REMAINING SESSION:",rs,"\n","PER UNIT EXTRA SESSION HOUR:",result)
